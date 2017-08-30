@@ -80,7 +80,6 @@ p {
 .accordion-container {
    display: block;
    position: relative;
-   border: 1px solid red;
    margin: 0 auto;
    width: 85%;
 }
@@ -92,6 +91,7 @@ p {
 }
 
 .tab {
+  list-style: none;
   padding: 20px;
   flex: 1;
   text-align: center;
@@ -122,8 +122,20 @@ p {
   margin-right: 30px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 .code {
-  width: 120px;
+  width: 300px;
+  height: 40px;
+  background: #3F3244;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 12px;
 }
 
 

@@ -5,10 +5,11 @@
     <title>Pattrn Party</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-      <div class="logo">PATTRN PARTY</div>
+      <div class="logo">PATTRN <span class="party">PARTY</span></div>
       <div class="name">Student Name</div>
     </header>
     <section class="accordion-label">
@@ -16,24 +17,72 @@
       <div class="line"></div>
     </section>
     <section class="accordion-container">
-      <section class="tab-1-container">
-        <div>Tab 1</div>
-        <div class="contents-container">
-          <img class="placeholder" src="assets/placeholder1.jpg" alt="downtown image">
-          <secton class="text-container">
-            <h1>Bacon ipsum dolor amet tongue swine ribeye</h1>
-            <div class="line"></div>
-            <p>Hamburger pork loin biltong, salami tail pork chop alcatra ball 
-              tip frankfurter porchetta spare ribs meatball bresaola andouille. 
-              Burgdoggen flank landjaeger, turkey biltong jowl ribeye corned beef filet 
-              mignon drumstick capicola jerky t-bone.</p>
-            <p>Capicola ground round pork loin ham meatloaf pig short ribs flank tri-tip 
-              beef kielbasa burgdoggen. Andouille corned beef prosciutto spare ribs. 
-              Kevin doner tri-tip cupim biltong short ribs leberkas. Ham pork andouille tongue, 
-              bacon sirloin porchetta.</p>
-          </secton>
-        </div>
-      </section>
+      <ul class="tabs-container">  
+        <li class="tab-1 tab active" href="#">Tab 1</li>
+        <li class="tab-2 tab" href="#">Tab 2</li>
+        <li class="tab-3 tab" href="#">Tab 3</li>
+        <li class="tab-4 tab" href="#">Tab 4</li>
+      </ul>    
+      <div class="contents-container-1 visible">
+        <img class="placeholder" src="assets/placeholder1.jpg" alt="downtown image">
+        <secton class="text-container-1 ">
+          <h1>Bacon ipsum dolor amet tongue </h1>
+          <div class="line"></div>
+          <p>Hamburger pork loin biltong, salami tail pork chop alcatra ball 
+            tip frankfurter porchetta spare ribs meatball bresaola andouille. 
+            Burgdoggen flank landjaeger, turkey biltong jowl ribeye corned beef filet 
+            mignon drumstick capicola jerky t-bone.</p></br>
+          <p>Capicola ground round pork loin ham meatloaf pig short ribs flank tri-tip 
+            beef kielbasa burgdoggen. Andouille corned beef prosciutto spare ribs. 
+            Kevin doner tri-tip cupim biltong short ribs leberkas. Ham pork andouille tongue, 
+            bacon sirloin porchetta.</p>
+        </secton>
+      </div>
+      <div class="contents-container-2 hidden">
+        <img class="placeholder" src="assets/placeholder1.jpg" alt="downtown image">
+        <secton class="text-container-1 ">
+          <h1>Meat ipsum dolor amet tongue swine ribeye</h1>
+          <div class="line"></div>
+          <p>Hamburger pork loin biltong, salami tail pork chop alcatra ball 
+            tip frankfurter porchetta spare ribs meatball bresaola andouille. 
+            Burgdoggen flank landjaeger, turkey biltong jowl ribeye corned beef filet 
+            mignon drumstick capicola jerky t-bone.</p>
+          <p>Capicola ground round pork loin ham meatloaf pig short ribs flank tri-tip 
+            beef kielbasa burgdoggen. Andouille corned beef prosciutto spare ribs. 
+            Kevin doner tri-tip cupim biltong short ribs leberkas. Ham pork andouille tongue, 
+            bacon sirloin porchetta.</p>
+        </secton>
+      </div>
+      <div class="contents-container-3 hidden">
+        <img class="placeholder" src="assets/placeholder1.jpg" alt="downtown image">
+        <secton class="text-container-1 ">
+          <h1>Chicken ipsum dolor amet tongue swine ribeye</h1>
+          <div class="line"></div>
+          <p>Hamburger pork loin biltong, salami tail pork chop alcatra ball 
+            tip frankfurter porchetta spare ribs meatball bresaola andouille. 
+            Burgdoggen flank landjaeger, turkey biltong jowl ribeye corned beef filet 
+            mignon drumstick capicola jerky t-bone.</p>
+          <p>Capicola ground round pork loin ham meatloaf pig short ribs flank tri-tip 
+            beef kielbasa burgdoggen. Andouille corned beef prosciutto spare ribs. 
+            Kevin doner tri-tip cupim biltong short ribs leberkas. Ham pork andouille tongue, 
+            bacon sirloin porchetta.</p>
+        </secton>
+      </div>
+      <div class="contents-container-4 hidden">
+        <img class="placeholder" src="assets/placeholder1.jpg" alt="downtown image">
+        <secton class="text-container-1 ">
+          <h1>Asperagus ipsum dolor amet tongue swine ribeye</h1>
+          <div class="line"></div>
+          <p>Hamburger pork loin biltong, salami tail pork chop alcatra ball 
+            tip frankfurter porchetta spare ribs meatball bresaola andouille. 
+            Burgdoggen flank landjaeger, turkey biltong jowl ribeye corned beef filet 
+            mignon drumstick capicola jerky t-bone.</p>
+          <p>Capicola ground round pork loin ham meatloaf pig short ribs flank tri-tip 
+            beef kielbasa burgdoggen. Andouille corned beef prosciutto spare ribs. 
+            Kevin doner tri-tip cupim biltong short ribs leberkas. Ham pork andouille tongue, 
+            bacon sirloin porchetta.</p>
+        </secton>
+      </div>
       <button class="code">VIEW CODE</button>
     </section>
   <script src="main.js"></script>

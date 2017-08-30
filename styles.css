@@ -1,4 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
@@ -7,20 +12,26 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: pink;
+  background-color: #2F2235;
 }
 
 .name {
   margin-right: 40px;
+  font-size: 18px;
 }
 
 .logo {
   margin-left: 40px;
+  font-size: 25px;
 }
 
 .name,
 .logo {
   color: #fff;
+}
+
+.party {
+  color: #34D1D1;
 }
 
 .accordion-label {
@@ -31,23 +42,47 @@ body {
 
 .accordion {
   margin-right: 50px;
+  font-size: 20px;
 }
 
 .line {
-  border: 1px solid black;
+  border: 1px solid #D1D2D3;
   height: 0;
   width: 75%;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.contents-container {
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contents-container-1 {
   display: flex;
   align-items: center;
   margin: 30px;
+  margin-top: 0px;
+  border: 1px solid #D1D2D3;
+  border-top: none;
+  padding: 20px;
 }
 
 .accordion-container {
-  border: 1px solid blue;
+   display: block;
+   position: relative;
+   border: 1px solid red;
+   margin: 0 auto;
+   width: 85%;
+   
+  /*border: 1px solid blue;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,10 +90,40 @@ body {
   margin: 60px auto;*/
 }
 
-.tab-1-container {
-  border: 1px solid green;
-  width: 85%;
-  margin: 60px auto;
+
+
+.tabs-container {
+  display: flex;
+  /*border: 1px solid green;*/
+  margin: 30px 30px 0 30px;
+  align-items: center;
+}
+
+.tab {
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  flex: 1;
+  font-size: 20px;
+  background-color: #D1D2D3;
+  border-right: 1px solid #fff;
+}
+
+.active{
+  background-color: white;
+  border: 1px solid #D1D2D3;
+  border-bottom: none;
+}
+
+.visible {
+  position: relative;
+}
+
+.hidden{
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+  display: none;
 }
 
 .placeholder {

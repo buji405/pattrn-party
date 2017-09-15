@@ -54,5 +54,4 @@ tab4.on('click', () => {
 
 $('.header-nav').on('click', () => {
   $('.content-container').toggleClass('show');
-  $('.header-btn').toggleClass('show');
 })

@@ -51,3 +51,8 @@ tab4.on('click', () => {
   tab3.removeClass('active');
   content3.addClass('hidden');
 })
+
+$('.header-nav').on('click', () => {
+  $('.content-container').toggleClass('show');
+  $('.header-btn').toggleClass('show');
+})
